@@ -1,0 +1,18 @@
+#menu li{ float:left;}
+#menu a{ font-size:23px; color:#000000; line-height:1.2em; text-decoration:none; letter-spacing:-1px;}
+
+
+
+.nav1{ padding:26px 0 0 57px;}
+.nav2{ padding:16px 0 0 30px;}
+.nav3{ padding:16px 0 0 27px;}
+.nav4{ padding:16px 0 0 29px;}
+.nav5{ padding:16px 0 0 30px;}
+
+#menu .nav1 a:hover{ color:#bb0e0e}
+#menu .nav2 a:hover{ color:#ca6509}
+#menu .nav3 a:hover{ color:#ca6509}
+#menu .nav4 a:hover{ color:#ca6509}
+#menu .nav5 a:hover{ color:#ca6509}
+
+.ic, .ic a { text-indent:-9999px; width:100%; overflow:hidden}
