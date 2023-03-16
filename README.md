@@ -50,5 +50,6 @@ Web tarayıcınızda geri butonuna bastığınızda web uygulamanız içinde bir
 <h5>Güvenlik</h5>
 Uygulamanın sunucu tarafından istemci tarafına daha çok yük bindirmesi beraberinde güvenlik problemlerini de getiriyor. İstemci tarafında XSS kullanarak istemci taraflı scriptleri çalıştırmak kolaylaşıyor. Aynı şekilde kullanıcının izni olmadan belli yetkileri almakta kolaylaşıyor. Ancak React, Angular gibi popüler frameworkleri geliştiren firmalarda bu durumun farkında olacaktır ki geliştirdikleri frameworkleri bu yönde güncelliyorlar. Uygulamanın güvenliğinde geliştiricinin yani sizin de öneminiz artıyor.
 <h5>Memory leaks(bellek sızıntısı)</h5>
+
 Single Page Application için önemli sorunlardan birisi de memory leaks. Uygulamanızda çok fazla obje sürekli yüklenir ve sayfadan gider. Ancak siz gitti olarak görsenizde doğru şekilde geliştirmediyseniz aslında bellekten silinmemiş olabilir. Bu sebeple çöp nesnelerin aldığı bellek alanı işletim sistemine geri verilememiş olur. Bu da belleğin şişmesini sağlar. Bu durum da kullanıcı arayüzünün yavaşlamasına ve batarya kullanımının artmasına sebebiyet verebilir. Özellikle mobil kullanıcılar için problem olabilir.
 
